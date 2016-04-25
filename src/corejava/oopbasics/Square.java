@@ -1,4 +1,4 @@
-package oopbasics;
+package corejava.oopbasics;
 
 public class Square {
 	public double width;

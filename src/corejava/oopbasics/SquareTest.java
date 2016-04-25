@@ -1,4 +1,4 @@
-package oopbasics;
+package corejava.oopbasics;
 
 public class SquareTest {
 	public static void main(String[] args) {

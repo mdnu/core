@@ -1,4 +1,4 @@
-package oopbasics;
+package corejava.oopbasics;
 
 /**
  * @author m
