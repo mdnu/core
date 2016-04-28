@@ -1,3 +1,3 @@
 # core
 
-working through various codeservlets tutorials.
+working through various codeservlets.com tutorials.
