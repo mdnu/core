@@ -18,7 +18,7 @@ public class Circle {
 	
 	/** 
 	 * Returns current radius. Units are same as the area's units.
-	 * @return
+	 * @return radius
 	 */
 	public double getRadius() {
 		return radius;
@@ -34,7 +34,7 @@ public class Circle {
 	
 	/** 
 	 * Calculates the area of the current Circle object.
-	 * @return
+	 * @return Area
 	 */
 	public double getArea() {
 		return (Math.PI * radius * radius);

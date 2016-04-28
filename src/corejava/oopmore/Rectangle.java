@@ -20,7 +20,7 @@ public class Rectangle {
 	
 	/**
 	 * Returns the current width.
-	 * @return
+	 * @return width
 	 */
 	public double getWidth() {
 		return width;
@@ -28,7 +28,7 @@ public class Rectangle {
 	
 	/**
 	 * Returns the current height.
-	 * @return
+	 * @return height
 	 */
 	public double getHeight() {
 	return height;
@@ -52,7 +52,7 @@ public class Rectangle {
 	
 	/**
 	 * Computes and returns the current area.
-	 * @return
+	 * @return Area
 	 */
 	public double getArea() {
 		return (width * height);
