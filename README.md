@@ -1,3 +1,4 @@
 # core
 
-working through various codeservlets.com tutorials.
+working through various codeservlets tutorials.
+current: core-java se8.
