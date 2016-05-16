@@ -48,3 +48,31 @@ core-java se8 table of contents:
     * TicTacToePanel1 - extends JPanel. draws an empty tic tac toe board.
     * TicTacToeFrame2 - extends JFrame. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
     * TicTacToePanel2 - extends JPanel. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
+  6. lists, maps and sets
+  7. generic types, printf and misc
+  8. unit testing with JUnit
+  9. asynchronous event handling
+  10. concurrent programming with Java threads
+  11. parallel programming
+  12. setting up Java 8
+  13. lambdas I
+  14. lambdas II
+  15. lambdas III
+  16. interfaces
+  17. static and default methods
+  18. lambdas IV
+  19. streams I
+  20. streams II
+  21. streams III
+  22. lambda methods for lists and maps
+  23. file IO in Java 8
+  24. network programming I - clients
+  25. network programming II - servers
+  26. network programming and object serialization
+  27. graphics I - applets
+  28. graphics II - AWT
+  29. graphics III - layout managers
+  30. graphics IV - 2D drawing
+  31. graphics V - basic Swing
+  32. graphics VI - advanced Swing and MVC
+  33. graphics VII - multithreaded graphics and animation.
