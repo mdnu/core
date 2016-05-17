@@ -49,6 +49,14 @@ core-java se8 table of contents:
     * TicTacToeFrame2 - extends JFrame. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
     * TicTacToePanel2 - extends JPanel. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
   6. lists, maps and sets
+    * shapes - used for CircleListTest below
+      * Shape - a public interface representing any given Shape object.
+      * Circle - a Circle model class which implements the Shape interface.
+    * CircleListTest - makes a <b>List</b> of Circle objects then loops through it, printing out each area.
+    * EmployeeTest - makes a <b>Map</b> which associates employee IDs with names.
+    * NumbersMap - makes a Map which associates numbers with words in some language.
+    * NumbersMapTest - tests the NumbersMap model class using french and english words.
+    * ListPerformanceTest - a timing test which compares <b>ArrayList</b> and <b>LinkedList</b>.
   7. generic types, printf and misc
   8. unit testing with JUnit
   9. asynchronous event handling
