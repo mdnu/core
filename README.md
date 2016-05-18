@@ -58,6 +58,13 @@ core-java se8 table of contents:
     * NumbersMapTest - tests the NumbersMap model class using french and english words.
     * ListPerformanceTest - a timing test which compares <b>ArrayList</b> and <b>LinkedList</b>.
   7. generic types, printf and misc
+	* EntryUtils - <b>generic type</b> exercise. has two static methods called "lastEntry" which takes in a List (Array) of arbitary objects and retrieves the last entry.
+	* EntryUtilsTest - a test class for the EntryUtils class.
+	* CircleListTestTwo - <b>printf</b> exercise. modify the CircleListTest class from earlier to have formatted outputs.
+	* NumbersMapTwo - <b>varargs</b> exercise. modify the NumbersMap class from earlier to include a 'wordsForNumbers' method that takes in any # of ints and returns a String[] of matching associated words.
+	* NumbersMapTwoTest - a test class for NumbersMapTwo. follows NumersMapTest template, but also tests the wordsForNumbers method.
+	* CharUtils - copy of CharUtils class from lecture. has two methods 'padChars' 1 and 2, which takes some string and pads an initially empty string n-many times, where n is chosen by the user.
+	* padCharPerformanceTest - a timing test to compare padChars1, which pads via String concatenation (O(n^2)) and padChars2, which pads via StringBuilder (O(n)).
   8. unit testing with JUnit
   9. asynchronous event handling
   10. concurrent programming with Java threads
