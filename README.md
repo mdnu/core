@@ -65,7 +65,9 @@ core-java se8 table of contents:
 	* NumbersMapTwoTest - a test class for NumbersMapTwo. follows NumersMapTest template, but also tests the wordsForNumbers method.
 	* CharUtils - copy of CharUtils class from lecture. has two methods 'padChars' 1 and 2, which takes some string and pads an initially empty string n-many times, where n is chosen by the user.
 	* padCharPerformanceTest - a timing test to compare padChars1, which pads via String concatenation (O(n^2)) and padChars2, which pads via StringBuilder (O(n)).
-  8. unit testing with JUnit
+  8. unit testing with <b>JUnit</b>
+	* Utils	- has two static methods; 'calmString' which takes a String and outputs a new String with all instances of '!' removed, and 'calmAttendees' (read details in the class).
+	* UtilsTest - performs JUnit testing for both methods in Utils.
   9. asynchronous event handling
   10. concurrent programming with Java threads
   11. parallel programming
