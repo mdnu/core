@@ -2,6 +2,12 @@ package corejava.eventhandling;
 
 import java.awt.event.*;
 
+/**
+ * Separate class as mouse listener.
+ * Provides 'mousePressed' functionality.
+ * @author m
+ */
+
 public class Colour1Listener extends MouseAdapter {
 	private Colour1Panel window;
 	
