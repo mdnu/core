@@ -69,6 +69,24 @@ core-java se8 table of contents:
 	* Utils	- has two static methods; 'calmString' which takes a String and outputs a new String with all instances of '!' removed, and 'calmAttendees' (read details in the class).
 	* UtilsTest - performs JUnit testing for both methods in Utils.
   9. asynchronous event handling
+  	* Colour1Frame
+  	* Colour1Panel
+  	* Colour1Listener
+  	* Colour2Frame
+  	* Colour2Panel
+  	* Colour3Frame
+  	* Colour3Panel
+  	* Colour4Frame
+  	* Colour4Panel
+  	* ColourKey1Frame
+  	* ColourKey1Panel
+  	* ColourMouse1Frame
+  	* ColourMouse1Panel
+  	* circle
+		* Circle
+		* CirclePanel
+		* AddRemoveCircleFrame
+		* AddRemoveCirclePanel
   10. concurrent programming with Java threads
   11. parallel programming
   12. setting up Java 8
