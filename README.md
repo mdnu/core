@@ -70,23 +70,49 @@ core-java se8 table of contents:
 	* UtilsTest - performs JUnit testing for both methods in Utils.
   9. asynchronous event handling
   	* Colour1Frame
+		* Uses a separate class as mouse listener. 
+		* Makes a popup window (JFrame) whose content pane (JPanel) toggles back and forth between black and white each time the window is clicked.
   	* Colour1Panel
+		* Provides panel content for Colour1Frame.
+		* Provides 'swapColours' functionality, used by Colour1Listener
   	* Colour1Listener
+		* Separate class as mouse listener.
+		* Provides 'mousePressed' functionality.
   	* Colour2Frame
+		* Same as above, but this time puts the 'mousePressed' method directly into this JPanel subclass.
   	* Colour2Panel
+		* Same as above, but puts mousePressed in subclass. Must override all mouse methods (inelegant solution).
   	* Colour3Frame
+		* Same as above, but this time uses a <b>named inner class</b>.
   	* Colour3Panel
+		* Same as above, but uses a named inner class, 'Colour3Changer' which extends MouseAdapter.
   	* Colour4Frame
+		* Same as above, but this time uses an <b>anonymous inner class</b>.
   	* Colour4Panel
+		* Same as above.
   	* ColourKey1Frame
+		* Makes a popup window that turns into the colours "R-O-Y-G-B-V" when the corresponding key is pressed.
+		* Uses a KeyListener or KeyAdapter and the keyTyped method.
   	* ColourKey1Panel
+		* Panel for ColourKey1Frame.
+		* Uses a named inner class 'ColourKeyChanger' which extends KeyAdapter.
   	* ColourMouse1Frame
+		* Makes a popup window which is black when the mouse is on the left side of the window and white when it is on the right side.
+		* Uses a MouseMotionListener or MouseMotionAdapter and the mouseMoved method.
   	* ColourMouse1Panel
+		* Panel for ColourMouse1Frame.
+		* Uses a named inner class 'ColourMouseChanger' which extends MouseMotionAdapter.
   	* circle
 		* Circle
+			* Circle model class.
+			* Contains new methods 'draw', 'containsPoint' and 'distance.'
 		* CirclePanel
+			* Panel extended by AddRemoveCirclePanel below.
 		* AddRemoveCircleFrame
+			* Use Circle and CirclePanel so that 'mousePressed' method adds a circle when you left-click anywhere and removes a circle if you right-click above an existing circle.
 		* AddRemoveCirclePanel
+			* Panel for AddRemoveCircleFrame.
+			* Uses a named inner class 'AddRemoveCircleListener' which extends MouseAdapter.
   10. concurrent programming with Java threads
   11. parallel programming
   12. setting up Java 8
