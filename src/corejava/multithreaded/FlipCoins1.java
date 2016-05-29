@@ -3,7 +3,7 @@ import java.util.concurrent.*;
 
 /**
  * First exercise on multithreading.
- * To visualize: Basically, what we do is have five people flip a coin
+ * To visualize task: Basically, what we do is have five people flip a coin
  * one thousand times - all at the same time. If any of them flip three 
  * heads in a row, we make a note of it in the output. 
  * @author m

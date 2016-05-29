@@ -12,6 +12,7 @@ package corejava.multithreaded;
 public class CoinFlipper implements Runnable {
 	@Override
 	public void run() {
+		//int number = 0;
 		int numHeads = 0;
 		for (int i = 0; i < 1000; i++) {
 			double coin = Math.random();
@@ -24,6 +25,10 @@ public class CoinFlipper implements Runnable {
 				System.out.printf("%s got %d heads in a row.%n", 
 								Thread.currentThread().getName(), numHeads);
 			}
+			//number++;
+			//if (i == 999) {
+			//	System.out.println(number);
+			//}	// used to verify that indeed five threads each execute 1000 tasks concurrently.
 		}
 	}
 }
