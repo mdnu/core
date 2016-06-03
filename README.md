@@ -6,14 +6,14 @@ current: core-java se8.
 
 core-java se8 table of contents:
 
-  <b>1.</b> basic syntax
+  1. basic syntax
     * FlipCoins1 - program that flips a coin 10 times, saying "heads" or "tails" each time.
     * FlipCoins2 - program that flips a coin N times, where N is specified by the user.
     * FourNums - creates an array of four random numbers from the unit interval. uses one-step array allocation.
     * HundredNums - creates an array of a hundred random numbers from the unit interval. uses two-step array allocation.
     * NumArgs - command-line program which outputs the # of arguments provided by the user.
     * ReverseArgs - command-line program which outputs the arguments provided by the user in reverse order.
-  <b>2.</b> oop basics
+  2. oop basics
     * Circle - a circle model class.
     * CircleTest - a test class for Circle model class.
     * HundredCircles - a program which initializes a hundred Circle objects of random specifications and outputs the largest area, smallest area and sum of all areas.
@@ -21,14 +21,14 @@ core-java se8 table of contents:
     * RectangleTest - a test class for Rectangle model class.
     * Square - a square model class
     * SquareTest - a test class for Square model class.
-  <b>3.</b> oop capabilities
+  3. oop capabilities
     * Circle - updates the circle model class with getters/setters and public methods.
     * CircleTest - a test class for the new Circle model class.
     * Rectangle - updates the rectangle model class with getters/setters and public methods.
     * RectangleTest - a test class for the new Rectangle model class.
     * Square - updates the square model class with getters/setters and public methods.
     * SquareTest - a test class for the new Square model class.
-  <b>4.</b> oop advanced
+  4. oop advanced
     * enums
       * Coin - a coin <b>enum</b> with instances named HEADS and TAILS. contains a static 'flip' method that returns Coin.HEADS and Coin.TAILS with equal probability.
       * CoinTest - a test class for coin enum.
@@ -39,7 +39,7 @@ core-java se8 table of contents:
       * PaperclipSale - a model class to represent the sale of paperclips. implements Sellable interface.
       * PaperclipSaleTest - a test class for PaperclipSale model class.
       * SalesTest - a test class for the 'Sellable' public interface.
-  <b>5.</b> simple java graphics - covers basic <b>AWT</b> and <b>Swing</b>.
+  5. simple java graphics - covers basic <b>AWT</b> and <b>Swing</b>.
     * CircleFrame - <b>extends</b> JFrame. creates a black window that draws five hundred small white circles at random locations.
     * CirclePanel - extends JPanel. creates a black window that draws five hundred small white circles at random locations.
     * LainFrame - extends JFrame. imports an image in project folder and creates a popup window which draws the image.
@@ -48,7 +48,7 @@ core-java se8 table of contents:
     * TicTacToePanel1 - extends JPanel. draws an empty tic tac toe board.
     * TicTacToeFrame2 - extends JFrame. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
     * TicTacToePanel2 - extends JPanel. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
-  <b>6.</b> lists, maps and sets
+  6. lists, maps and sets
     * shapes - used for CircleListTest below
       * Shape - a public interface representing any given Shape object.
       * Circle - a Circle model class which implements the Shape interface.
@@ -57,7 +57,7 @@ core-java se8 table of contents:
     * NumbersMap - makes a Map which associates numbers with words in some language.
     * NumbersMapTest - tests the NumbersMap model class using french and english words.
     * ListPerformanceTest - a timing test which compares <b>ArrayList</b> and <b>LinkedList</b>.
-  <b>7.</b> generic types, printf and misc
+  7. generic types, printf and misc
 	* EntryUtils - <b>generic type</b> exercise. has two static methods called "lastEntry" which takes in a List (Array) of arbitary objects and retrieves the last entry.
 	* EntryUtilsTest - a test class for the EntryUtils class.
 	* CircleListTestTwo - <b>printf</b> exercise. modify the CircleListTest class from earlier to have formatted outputs.
@@ -65,10 +65,10 @@ core-java se8 table of contents:
 	* NumbersMapTwoTest - a test class for NumbersMapTwo. follows NumersMapTest template, but also tests the wordsForNumbers method.
 	* CharUtils - copy of CharUtils class from lecture. has two methods 'padChars' 1 and 2, which takes some string and pads an initially empty string n-many times, where n is chosen by the user.
 	* padCharPerformanceTest - a timing test to compare padChars1, which pads via String concatenation (O(n^2)) and padChars2, which pads via StringBuilder (O(n)).
-  <b>8.</b> unit testing with <b>JUnit</b>
+  8. unit testing with <b>JUnit</b>
 	* Utils	- has two static methods; 'calmString' which takes a String and outputs a new String with all instances of '!' removed, and 'calmAttendees' (read details in the class).
 	* UtilsTest - performs JUnit testing for both methods in Utils.
-  <b>9.</b> asynchronous event handling
+  9. asynchronous event handling
   	* Colour1Frame
 		* Uses a separate class as mouse listener. 
 		* Makes a popup window (JFrame) whose content pane (JPanel) toggles back and forth between black and white each time the window is clicked.
@@ -113,7 +113,7 @@ core-java se8 table of contents:
 		* AddRemoveCirclePanel
 			* Panel for AddRemoveCircleFrame.
 			* Uses a named inner class 'AddRemoveCircleListener' which extends MouseAdapter.
-  <b>10.</b> concurrent programming with Java threads
+  10. concurrent programming with Java threads
 	* CoinFlipper (used only by FlipCoins1 below)
 		* Following the 'separate classes implement Runnable' pattern.
 		* Overriden 'run' method flips 1000 coins and prints out whenever it sees three or more consecutive heads.
@@ -130,26 +130,26 @@ core-java se8 table of contents:
 		* CoinFlipperLabeled
 			* Implements Runnable.
 			* Overriden 'run' method like the ones in the exercises above, with modifications.
-  <b>11.</b> parallel programming
-  <b>12.</b> setting up Java 8
-  <b>13.</b> lambdas I
-  <b>14.</b> lambdas II
-  <b>15.</b> lambdas III
-  <b>16.</b> interfaces
-  <b>17.</b> static and default methods
-  <b>18.</b> lambdas IV
-  <b>19.</b> streams I
-  <b>20.</b> streams II
-  <b>21.</b> streams III
-  <b>22.</b> lambda methods for lists and maps
-  <b>23.</b> file IO in Java 8
-  <b>24.</b> network programming I - clients
-  <b>25.</b> network programming II - servers
-  <b>26.</b> network programming and object serialization
-  <b>27.</b> graphics I - applets
-  <b>28.</b> graphics II - AWT
-  <b>29.</b> graphics III - layout managers
-  <b>30.</b> graphics IV - 2D drawing
-  <b>31.</b> graphics V - basic Swing
-  <b>32.</b> graphics VI - advanced Swing and MVC
-  <b>33.</b> graphics VII - multithreaded graphics and animation.
+  11. parallel programming
+  12. setting up Java 8
+  13. lambdas I
+  14. lambdas II
+  15. lambdas III
+  16. interfaces
+  17. static and default methods
+  18. lambdas IV
+  19. streams I
+  20. streams II
+  21. streams III
+  22. lambda methods for lists and maps
+  23. file IO in Java 8
+  24. network programming I - clients
+  25. network programming II - servers
+  26. network programming and object serialization
+  27. graphics I - applets
+  28. graphics II - AWT
+  29. graphics III - layout managers
+  30. graphics IV - 2D drawing
+  31. graphics V - basic Swing
+  32. graphics VI - advanced Swing and MVC
+  33. graphics VII - multithreaded graphics and animation.
