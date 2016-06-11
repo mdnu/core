@@ -131,6 +131,12 @@ core-java se8 table of contents:
 			* Implements Runnable.
 			* Overriden 'run' method like the ones in the exercises above, with modifications.
   11. parallel programming (parallel)
+	* PrimeFinderUtils
+		* Primes
+		* ParallelPrimeMarker
+	* PrimeFinderUtilsTest
+		* Interface: Op
+		* TimingUtils
   12. setting up Java 8
   13. lambdas I
   14. lambdas II
