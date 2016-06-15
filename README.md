@@ -2,9 +2,9 @@
 
 working through various codeservlets tutorials.
 
-current: core-java se8.
+<b>current</b>: core-java se8.
 
-core-java se8 table of contents:
+core-java se8 - table of contents:
 
   1. basic syntax (basicsyntax)
     * FlipCoins1 - program that flips a coin 10 times, saying "heads" or "tails" each time.
@@ -159,3 +159,8 @@ core-java se8 table of contents:
   31. graphics V - basic Swing
   32. graphics VI - advanced Swing and MVC
   33. graphics VII - multithreaded graphics and animation.
+
+javaserverfaces (JSF) - table of contents:
+spring MVC - table of contents:
+hibernate & JPA -  table of contents:
+google web toolkit (GWT) - table of contents:
