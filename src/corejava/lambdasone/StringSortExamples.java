@@ -1,7 +1,6 @@
-package corejava.lambdas_one;
+package corejava.lambdasone;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 /**
  * Basic Lambdas:
