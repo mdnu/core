@@ -3,7 +3,7 @@ package corejava.java8;
 import java.util.*;
 
 /**
- * String-sorting examples using anonymous inner classes.
+ * String-sorting examples using Comparator and anonymous inner classes.
  * @author m
  */
 
