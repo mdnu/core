@@ -13,6 +13,7 @@ core-java se8 - table of contents:
     * HundredNums - creates an array of a hundred random numbers from the unit interval. uses two-step array allocation.
     * NumArgs - command-line program which outputs the # of arguments provided by the user.
     * ReverseArgs - command-line program which outputs the arguments provided by the user in reverse order.
+    
   2. oop basics (oopbasics)
     * Circle - a circle model class.
     * CircleTest - a test class for Circle model class.
@@ -21,6 +22,7 @@ core-java se8 - table of contents:
     * RectangleTest - a test class for Rectangle model class.
     * Square - a square model class
     * SquareTest - a test class for Square model class.
+    
   3. oop capabilities (oopmore)
     * Circle - updates the circle model class with getters/setters and public methods.
     * CircleTest - a test class for the new Circle model class.
@@ -28,6 +30,7 @@ core-java se8 - table of contents:
     * RectangleTest - a test class for the new Rectangle model class.
     * Square - updates the square model class with getters/setters and public methods.
     * SquareTest - a test class for the new Square model class.
+    
   4. oop advanced (oopadv)
     * enums
       * Coin - a coin <b>enum</b> with instances named HEADS and TAILS. contains a static 'flip' method that returns Coin.HEADS and Coin.TAILS with equal probability.
@@ -39,6 +42,7 @@ core-java se8 - table of contents:
       * PaperclipSale - a model class to represent the sale of paperclips. implements Sellable interface.
       * PaperclipSaleTest - a test class for PaperclipSale model class.
       * SalesTest - a test class for the 'Sellable' public interface.
+      
   5. simple java graphics - covers basic <b>AWT</b> and <b>Swing</b>. (simplegraphics)
     * CircleFrame - <b>extends</b> JFrame. creates a black window that draws five hundred small white circles at random locations.
     * CirclePanel - extends JPanel. creates a black window that draws five hundred small white circles at random locations.
@@ -48,6 +52,7 @@ core-java se8 - table of contents:
     * TicTacToePanel1 - extends JPanel. draws an empty tic tac toe board.
     * TicTacToeFrame2 - extends JFrame. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
     * TicTacToePanel2 - extends JPanel. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
+    
   6. lists, maps and sets (collections)
     * shapes - used for CircleListTest below
       * Shape - a public interface representing any given Shape object.
@@ -57,6 +62,7 @@ core-java se8 - table of contents:
     * NumbersMap - makes a Map which associates numbers with words in some language.
     * NumbersMapTest - tests the NumbersMap model class using french and english words.
     * ListPerformanceTest - a timing test which compares <b>ArrayList</b> and <b>LinkedList</b>.
+    
   7. generic types, printf and misc (generics)
 	* EntryUtils - <b>generic type</b> exercise. has two static methods called "lastEntry" which takes in a List (Array) of arbitary objects and retrieves the last entry.
 	* EntryUtilsTest - a test class for the EntryUtils class.
@@ -65,9 +71,11 @@ core-java se8 - table of contents:
 	* NumbersMapTwoTest - a test class for NumbersMapTwo. follows NumersMapTest template, but also tests the wordsForNumbers method.
 	* CharUtils - copy of CharUtils class from lecture. has two methods 'padChars' 1 and 2, which takes some string and pads an initially empty string n-many times, where n is chosen by the user.
 	* padCharPerformanceTest - a timing test to compare padChars1, which pads via String concatenation (O(n^2)) and padChars2, which pads via StringBuilder (O(n)).
+	
   8. unit testing with <b>JUnit</b> (junit)
 	* Utils	- has two static methods; 'calmString' which takes a String and outputs a new String with all instances of '!' removed, and 'calmAttendees' (read details in the class).
 	* UtilsTest - performs JUnit testing for both methods in Utils.
+	
   9. asynchronous event handling (eventhandling)
   	* Colour1Frame
 		* Uses a separate class as mouse listener. 
@@ -113,6 +121,7 @@ core-java se8 - table of contents:
 		* AddRemoveCirclePanel
 			* Panel for AddRemoveCircleFrame.
 			* Uses a named inner class 'AddRemoveCircleListener' which extends MouseAdapter.
+			
   10. concurrent programming with Java threads (multithreaded)
 	* CoinFlipper (used only by FlipCoins1 below)
 		* Following the 'separate classes implement Runnable' pattern.
@@ -130,6 +139,7 @@ core-java se8 - table of contents:
 		* CoinFlipperLabeled
 			* Implements Runnable.
 			* Overriden 'run' method like the ones in the exercises above, with modifications.
+			
   11. parallel programming (parallel)
 	* PrimeFinderUtils
 		* Primes
@@ -137,6 +147,7 @@ core-java se8 - table of contents:
 	* PrimeFinderUtilsTest
 		* Interface: Op
 		* TimingUtils
+		
   12. setting up Java 8
   13. lambdas I
   14. lambdas II
@@ -152,13 +163,6 @@ core-java se8 - table of contents:
   24. network programming I - clients
   25. network programming II - servers
   26. network programming and object serialization
-  27. graphics I - applets
-  28. graphics II - AWT
-  29. graphics III - layout managers
-  30. graphics IV - 2D drawing
-  31. graphics V - basic Swing
-  32. graphics VI - advanced Swing and MVC
-  33. graphics VII - multithreaded graphics and animation.
 
 javaserverfaces (JSF) - table of contents:
 
