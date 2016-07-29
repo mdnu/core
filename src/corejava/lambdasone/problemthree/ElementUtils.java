@@ -9,5 +9,5 @@ public class ElementUtils {
 		}
 	}
 	
-	private ElementUtils() {}	// uninstantiatable class
+	private ElementUtils() {}	// Cannot instantiate this class.
 }

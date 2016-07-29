@@ -15,5 +15,5 @@ public class StringUtils {
 		}
 	}
 	
-	private StringUtils() {}	// uninstantiatable class;
+	private StringUtils() {}	// Cannot instantiate this class.
 }
