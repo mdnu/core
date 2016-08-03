@@ -6,7 +6,7 @@ working through various codeservlets tutorials.
 
 core-java se8 - table of contents:
 
-  1. basic syntax (basicsyntax)
+  1. basic syntax <b>(basicsyntax)</b>
     * FlipCoins1 - program that flips a coin 10 times, saying "heads" or "tails" each time.
     * FlipCoins2 - program that flips a coin N times, where N is specified by the user.
     * FourNums - creates an array of four random numbers from the unit interval. uses one-step array allocation.
@@ -14,7 +14,7 @@ core-java se8 - table of contents:
     * NumArgs - command-line program which outputs the # of arguments provided by the user.
     * ReverseArgs - command-line program which outputs the arguments provided by the user in reverse order.
     
-  2. oop basics (oopbasics)
+  2. oop basics <b>(oopbasics)</b>
     * Circle - a circle model class.
     * CircleTest - a test class for Circle model class.
     * HundredCircles - a program which initializes a hundred Circle objects of random specifications and outputs the largest area, smallest area and sum of all areas.
@@ -23,7 +23,7 @@ core-java se8 - table of contents:
     * Square - a square model class
     * SquareTest - a test class for Square model class.
     
-  3. oop capabilities (oopmore)
+  3. oop capabilities <b>(oopmore)</b>
     * Circle - updates the circle model class with getters/setters and public methods.
     * CircleTest - a test class for the new Circle model class.
     * Rectangle - updates the rectangle model class with getters/setters and public methods.
@@ -31,7 +31,7 @@ core-java se8 - table of contents:
     * Square - updates the square model class with getters/setters and public methods.
     * SquareTest - a test class for the new Square model class.
     
-  4. oop advanced (oopadv)
+  4. oop advanced <b>(oopadv)</b>
     * enums
       * Coin - a coin <b>enum</b> with instances named HEADS and TAILS. contains a static 'flip' method that returns Coin.HEADS and Coin.TAILS with equal probability.
       * CoinTest - a test class for coin enum.
@@ -43,7 +43,7 @@ core-java se8 - table of contents:
       * PaperclipSaleTest - a test class for PaperclipSale model class.
       * SalesTest - a test class for the 'Sellable' public interface.
       
-  5. simple java graphics - covers basic <b>AWT</b> and <b>Swing</b>. (simplegraphics)
+  5. simple java graphics - covers basic <b>AWT</b> and <b>Swing</b>. <b>(simplegraphics)</b>
     * CircleFrame - <b>extends</b> JFrame. creates a black window that draws five hundred small white circles at random locations.
     * CirclePanel - extends JPanel. creates a black window that draws five hundred small white circles at random locations.
     * LainFrame - extends JFrame. imports an image in project folder and creates a popup window which draws the image.
@@ -53,7 +53,7 @@ core-java se8 - table of contents:
     * TicTacToeFrame2 - extends JFrame. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
     * TicTacToePanel2 - extends JPanel. draws an empty tic tac toe board. drawing code should not know the panel size ahead of time, instead uses getWidth and getHeight methods to compute size.
     
-  6. lists, maps and sets (collections)
+  6. lists, maps and sets <b>(collections)</b>
     * shapes - used for CircleListTest below
       * Shape - a public interface representing any given Shape object.
       * Circle - a Circle model class which implements the Shape interface.
@@ -63,7 +63,7 @@ core-java se8 - table of contents:
     * NumbersMapTest - tests the NumbersMap model class using french and english words.
     * ListPerformanceTest - a timing test which compares <b>ArrayList</b> and <b>LinkedList</b>.
     
-  7. generic types, printf and misc (generics)
+  7. generic types, printf and misc <b>(generics)</b>
 	* EntryUtils - <b>generic type</b> exercise. has two static methods called "lastEntry" which takes in a List (Array) of arbitary objects and retrieves the last entry.
 	* EntryUtilsTest - a test class for the EntryUtils class.
 	* CircleListTestTwo - <b>printf</b> exercise. modify the CircleListTest class from earlier to have formatted outputs.
@@ -72,11 +72,11 @@ core-java se8 - table of contents:
 	* CharUtils - copy of CharUtils class from lecture. has two methods 'padChars' 1 and 2, which takes some string and pads an initially empty string n-many times, where n is chosen by the user.
 	* padCharPerformanceTest - a timing test to compare padChars1, which pads via String concatenation (O(n^2)) and padChars2, which pads via StringBuilder (O(n)).
 	
-  8. unit testing with <b>JUnit</b> (junit)
+  8. unit testing with <b>JUnit</b> <b>(junit)</b>
 	* Utils	- has two static methods; 'calmString' which takes a String and outputs a new String with all instances of '!' removed, and 'calmAttendees' (read details in the class).
 	* UtilsTest - performs JUnit testing for both methods in Utils.
 	
-  9. asynchronous event handling (eventhandling)
+  9. asynchronous event handling <b>(eventhandling)</b>
   	* Colour1Frame
 		* Uses a separate class as mouse listener. 
 		* Makes a popup window (JFrame) whose content pane (JPanel) toggles back and forth between black and white each time the window is clicked.
@@ -122,7 +122,7 @@ core-java se8 - table of contents:
 			* Panel for AddRemoveCircleFrame.
 			* Uses a named inner class 'AddRemoveCircleListener' which extends MouseAdapter.
 			
-  10. concurrent programming with Java threads (multithreaded)
+  10. concurrent programming with Java threads <b>(multithreaded)</b>
 	* CoinFlipper (used only by FlipCoins1 below)
 		* Following the 'separate classes implement Runnable' pattern.
 		* Overriden 'run' method flips 1000 coins and prints out whenever it sees three or more consecutive heads.
@@ -140,7 +140,7 @@ core-java se8 - table of contents:
 			* Implements Runnable.
 			* Overriden 'run' method like the ones in the exercises above, with modifications.
 			
-  11. parallel programming (parallel)
+  11. parallel programming <b>(parallel)</b>
 	* PrimeFinderUtils
 		* Primes
 		* ParallelPrimeMarker
