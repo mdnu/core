@@ -164,7 +164,7 @@ core-java se8 - table of contents:
   25. network programming II - servers
   26. network programming and object serialization
 
-javaserverfaces (JSF) - table of contents:
-spring MVC - table of contents:
-hibernate & JPA -  table of contents:
-google web toolkit (GWT) - table of contents:
+javaserverfaces (JSF) - table of contents:<br>
+spring MVC - table of contents:<br>
+hibernate & JPA -  table of contents:<br>
+google web toolkit (GWT) - table of contents:<br>
