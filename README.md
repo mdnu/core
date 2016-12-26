@@ -165,9 +165,6 @@ core-java se8 - table of contents:
   26. network programming and object serialization
 
 javaserverfaces (JSF) - table of contents:
-
 spring MVC - table of contents:
-
 hibernate & JPA -  table of contents:
-
 google web toolkit (GWT) - table of contents:
